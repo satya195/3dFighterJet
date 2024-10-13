@@ -8,7 +8,7 @@ const LandingPage = () => {
         <div className='landingPage-Box'>
             <video src={CloudvideoBg} autoPlay loop muted className='cloudVideoBg'/>
             <div className='landingcontainer'>
-            <h1 className='landingText'>Hello sweetheart</h1>
+            <h1 className='landingText' id="landingText">Hello sweetheart</h1>
             </div>
         </div>
         </>
