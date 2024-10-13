@@ -3,34 +3,36 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Make it full screen */
-    
-        .cloudVideoBg{
-            height: 100vh;
-            width: 100%;
-            object-fit: cover;
-            margin: 0;
-            padding: 0;
-        }
-        .landingcontainer{
-            position: absolute;
-            .landingText{
-                font-family: "New Amsterdam", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                transition: opacity 0.3s ease-in-out; 
-                cursor:default;
-            }
-            .landingText:hover {
-                opacity: 0.2;
-            }
-        } 
+    height: 100vh; /* Make it full screen */ 
 }
-.container3D{
+  
+.landingText:hover {
+    opacity: 0.2;
+}
+
+.landingcontainer{
+    position: absolute;
+}
+.landingText{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: opacity 0.3s ease-in-out; 
+    cursor:default;
+}
+.cloudVideoBg{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+.container3D {
     width: 100vw;
     height: 100vh;
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; /* Ensure it's positioned correctly */
 }
